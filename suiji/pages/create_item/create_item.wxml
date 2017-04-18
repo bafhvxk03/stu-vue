@@ -1,0 +1,24 @@
+
+<form bindsubmit="formSubmit" bindreset="formReset">
+  
+  <view class="section">
+    <input name="title" placeholder="随机标题，这是必填项哦～" />
+  </view>
+  <view>
+   <input name="comment" placeholder="补充说明，这是必填项哦～" />
+  </view>
+  <view class="suiji-lists">
+    <view class="suji-list" wx:for="{{list}}" wx-key="{{index}}">
+     <label data-tag="{{index}}" bindtap="deletehandle">删除</label>
+      <input name="option{{index+1}}" placeholder="选项"/>
+</view>
+    <view class="suji-list-btn">
+      <label>增加</label>
+      <span bindtap="addlist">增加选项</span>
+    </view>
+  </view>
+   <view class="btn-area">
+    <button formType="submit">Submit</button>
+    <button formType="reset">Reset</button>
+  </view>
+</form>

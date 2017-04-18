@@ -1,0 +1,3 @@
+<!--index.wxml-->
+<view>我是标题</view>
+<view class="classname">我是内容</view>

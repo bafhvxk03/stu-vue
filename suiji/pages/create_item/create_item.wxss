@@ -1,0 +1,66 @@
+input{
+  border: 1px solid #f2f2f2;
+  display: flex;
+  width: 560rpx;
+  margin: 20rpx auto;
+  border-radius:20rpx; 
+  padding-left:20rpx;
+  box-sizing: border-box;
+  height: 60rpx;
+  line-height: 60rpx; 
+}
+
+.suji-list{
+  display: flex;
+  width: 560rpx;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+
+.suji-list label{
+  display: block;
+  width: 100rpx;
+  margin-right: 10rpx;
+}
+
+.suji-list input{
+  display: block;
+  flex: 1;
+}
+.suji-list-btn{
+  display: flex;
+  width: 560rpx;
+  margin: 0 auto;
+}
+
+.suji-list-btn label{
+  display: block;
+  width: 100rpx;
+  margin-right: 10rpx;
+}
+
+.suji-list-btn span{
+  display: block;
+  float: left;
+  width: 100rpx;
+  border-radius:20rpx; 
+  text-align: center;
+  height: 40rpx;
+  line-height: 40rpx;
+  background: blue;
+  color: #fff;
+  font-size: 16rpx;
+}
+
+button{
+  width: 560rpx;
+  margin-top: 20rpx;
+  background: blue;
+  color: #fff;
+  font-size: 24rpx;
+  text-align: center;
+  border-radius:40rpx; 
+  height: 80rpx;
+  line-height: 80rpx; 
+}

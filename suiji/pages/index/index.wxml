@@ -1,0 +1,4 @@
+<view class="index-wrap">
+  <navigator url="/pages/create_item/create_item" >创建随机</navigator>
+  <navigator url="/pages/tpl_item/tpl_item" >模版页面</navigator>
+</view>

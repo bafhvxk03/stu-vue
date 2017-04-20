@@ -12,9 +12,13 @@
       "selectedColor":"blue",
     "list": [{
       "pagePath": "pages/index/index",
+      "iconPath":"images/home.png",
+      "selectedIconPath":"images/homeactive.png",
       "text": "首页"
     }, {
       "pagePath": "pages/my/my",
+       "iconPath":"images/my.png",
+      "selectedIconPath":"images/myactive.png",
       "text": "我的随机"
     }]
   },
